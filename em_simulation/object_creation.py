@@ -6,7 +6,7 @@ module to create the objects of the model
 #libraries:
 import numpy as np
 from math import  sqrt
-from numba import jit
+
 #modules:
 from global_constants import RED, RESET
 from global_constants import EPSZ, DT
