@@ -17,18 +17,18 @@ The default spatial discretization in this simulator is 0.01 meters for the "x" 
 
 ## Glossary
 * $Dm$ = model_size_y
-* $$Ws$$ = model_size_x
-* $$Ds$$ = subsurface_height
-* $$Rx_{x}$$ = RX_antenna_position_x
-* $$Rx_{y}$$ = RX_antenna_position_y
-* $$Tx_{x}$$ = TX_antenna_position_x
-* $$Tx_{y}$$ = TX_antenna_position_y
-* $$steps$$ = steps_antenna
-* $$\varepsilon_{rs}$$ = permittivity_r (subsurface)
-* $$\varepsilon_{rc}$$ = permittivity_r (cylinder)
-* $$\sigma_{s}$$ = conductivity (subsurface)
-* $$\sigma_{c}$$ = conductivity (cylinder)
-* $$r_{c}$$ = radius (cylinder)
+* $Ws$ = model_size_x
+* $Ds$ = subsurface_height
+* $Rx_{x}$ = RX_antenna_position_x
+* $Rx_{y}$ = RX_antenna_position_y
+* $Tx_{x}$ = TX_antenna_position_x
+* $Tx_{y}$ = TX_antenna_position_y
+* $steps$ = steps_antenna
+* $\varepsilon_{rs}$ = permittivity_r (subsurface)
+* $\varepsilon_{rc}$ = permittivity_r (cylinder)
+* $\sigma_{s}$ = conductivity (subsurface)
+* $\sigma_{c}$ = conductivity (cylinder)
+* $r_{c}$ = radius (cylinder)
 
 
 ## Installation
