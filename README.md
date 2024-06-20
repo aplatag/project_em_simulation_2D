@@ -1,15 +1,36 @@
 # 2D electromagnetic simulator
-2D Electromagnetic Simulator for GPR Scenarios. This simulator allows for varying the relative permittivity and conductivity of the subsurface. Additionally, cylindrical objects can be added, defined by a coordinate (x, y) indicating the center of the cylinder, as well as their relative permittivity and conductivity. The simulation requires defining the location of the transmission and reception antennas, as well as the frequency of the Ricker pulse. The spatial description value used in the simulation is 0.01cm. Below is an example image showing all the parameters necessary to configure the GPR scenario.
+2D Electromagnetic Simulator for GPR Scenarios. This simulator allows for varying the relative permittivity and conductivity of the subsurface. Additionally, cylindrical objects can be added, defined by a coordinate (x, y) indicating the center of the cylinder, as well as their relative permittivity and conductivity. The simulation requires defining the location of the transmission and reception antennas, as well as the frequency of the Ricker pulse. Below is an example image showing all the parameters necessary to configure the GPR scenario.
 
-![Descripción de la imagen](images/escenario_GPR.png)
+![GPR scenario](images/escenario_GPR.png)
+
+The default spatial discretization in this simulator is 0.01 meters for the "x" and "y" coordinates. The positions of the antennas, cylindrical objects, and the height of the subsurface are specified in terms of points. These points are calculated as follows: if the transmission antenna is to be positioned at 0.10 meters on the "x" axis and 0.5 meters on the "y" axis, this corresponds to 10 points and 50 points, respectively. This is obtained by dividing 0.10 by 0.01, resulting in 10, and 0.5 by 0.01, resulting in 50.
+
+
 
 ## Table of Contents
 
+- [Glossary](#Glossary)
 - [Installation](#installation)
 - [Code Example](#code-example)
 - [Create the environment](#Create-the-environment)
 
-  
+
+## Glossary
+* $$Dm$$ = model_size_y
+* $$Ws$$ = model_size_x
+* $$Ds$$ = subsurface_height
+* $$Rx_{x}$$ = RX_antenna_position_x
+* $$Rx_{y}$$ = RX_antenna_position_y
+* $$Tx_{x}$$ = TX_antenna_position_x
+* $$Tx_{y}$$ = TX_antenna_position_y
+* $$steps$$ = steps_antenna
+* $$\varepsilon_{rs}$$ = permittivity_r (subsurface)
+* $$\varepsilon_{rc}$$ = permittivity_r (cylinder)
+* $$\sigma_{s}$$ = conductivity (subsurface)
+* $$\sigma_{c}$$ = conductivity (cylinder)
+* $$r_{c}$$ = radius (cylinder)
+
+
 ## Installation
 
 Instructions on how to install the project. For example:
