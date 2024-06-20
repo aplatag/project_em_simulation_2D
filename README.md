@@ -16,7 +16,7 @@ The default spatial discretization in this simulator is 0.01 meters for the "x" 
 
 
 ## Glossary
-* $$Dm$$ = model_size_y
+* $Dm$ = model_size_y
 * $$Ws$$ = model_size_x
 * $$Ds$$ = subsurface_height
 * $$Rx_{x}$$ = RX_antenna_position_x
