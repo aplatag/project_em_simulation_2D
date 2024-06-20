@@ -28,13 +28,13 @@ dicc_simulation = {
 }
 
 
-caracteristicas_sub = { 
+characteristics_subsurface= { 
 'permittivity_r': 5,
 'conductivity': 0.005, #mS/m
 'subsurface_height': 50
 }
 
-caracteristicas_cil= { 'x_position': 50,
+characteristics_cylinder= { 'x_position': 50,
 'y_position': 35,
 'conductivity': 5.81e7, #cu
 'permittivity_r': 1,
@@ -44,6 +44,6 @@ caracteristicas_cil= { 'x_position': 50,
 
 # main:
 
-ez = create_gpr.run_image(dicc_model,dicc_simulation,caracteristicas_sub,caracteristicas_cil  )
+ez = create_gpr.run_image(dicc_model,dicc_simulation,characteristics_subsurface,characteristics_cylinder )
 
 vis.graph_ez(ez)
