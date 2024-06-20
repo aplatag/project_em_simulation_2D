@@ -38,9 +38,8 @@ The default spatial discretization in this simulator is 0.01 meters for the "x" 
 
 Instructions on how to install the project. For example:
 ```bash
-git clone https://github.com/usuario/nombre-del-proyecto.git
-cd nombre-del-proyecto
-pip install -r requirements.txt
+
+pip install em_simulation
 ```
 
 ## Code Example
