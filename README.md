@@ -6,6 +6,7 @@
 
 - [Installation](#installation)
 - [Code Example](#code-example)
+- [Create the environment](#Create-the-environment)
 
   
 ## Installation
@@ -18,7 +19,7 @@ pip install -r requirements.txt
 ```
 
 ## Code Example
-
+For instance, the following code can be executed in Google Colab. Simply copy and paste it into a new Colab notebook.
 ```bash
 
 import create_gpr_image as create_gpr
@@ -65,3 +66,10 @@ ez = create_gpr.run_image(dicc_model,dicc_simulation,characteristics_subsurface,
 vis.graph_ez(ez) 
 
 ```
+## Create the environment
+Create a local environment using Anaconda from an environment.yml file.
+
+```bash
+conda env create -f environment.yml
+```
+
