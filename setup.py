@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup (
     name='em_simulation',
-    version='0.8.2',
+    version='0.8.3',
     license='MIT',
     description='2D Electromagnetic Simulator for GPR Scenarios',
     long_description=long_description,
