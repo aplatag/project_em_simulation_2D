@@ -4,14 +4,10 @@
 </div>
 
 
-<p align="center">
-  <a href="https://github.com/avmmodules/AVMWeather">
-    <img src="https://raw.githubusercontent.com/avmmodules/AVMWeather/main/img/logo.png" alt="Logo" width="300">
-  </a>
-</p>
+
 
 <p align="center">
-    <img src="https://github.com/aplatag/project_em_simulation_2D/blob/main/images/escenario_GPR.png" alt="GPR-scenario" width="300">
+    <img src="https://github.com/aplatag/project_em_simulation_2D/blob/main/images/escenario_GPR.png" alt="GPR-scenario" width="500">
 </p>
 
 
