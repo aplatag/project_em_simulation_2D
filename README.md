@@ -3,6 +3,13 @@
 2D Electromagnetic Simulator for GPR Scenarios. This simulator allows for varying the relative permittivity and conductivity of the subsurface. Additionally, cylindrical objects can be added, defined by a coordinate (x, y) indicating the center of the cylinder, as well as their relative permittivity and conductivity. The simulation requires defining the location of the transmission and reception antennas, as well as the frequency of the Ricker pulse. Below is an example image showing all the parameters necessary to configure the GPR scenario.
 </div>
 
+
+<p align="center">
+  <a href="https://github.com/avmmodules/AVMWeather">
+    <img src="https://raw.githubusercontent.com/avmmodules/AVMWeather/main/img/logo.png" alt="Logo" width="300">
+  </a>
+</p>
+
 <p align="center">
     <img src="https://github.com/aplatag/project_em_simulation_2D/blob/main/images/escenario_GPR.png" alt="GPR-scenario" width="300">
 </p>
