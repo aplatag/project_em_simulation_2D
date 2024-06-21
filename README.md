@@ -3,7 +3,7 @@
 2D Electromagnetic Simulator for GPR Scenarios. This simulator allows for varying the relative permittivity and conductivity of the subsurface. Additionally, cylindrical objects can be added, defined by a coordinate (x, y) indicating the center of the cylinder, as well as their relative permittivity and conductivity. The simulation requires defining the location of the transmission and reception antennas, as well as the frequency of the Ricker pulse. Below is an example image showing all the parameters necessary to configure the GPR scenario.
 </div>
 
-![GPR scenario](images/escenario_GPR.png)
+![GPR scenario](https://github.com/aplatag/project_em_simulation_2D/blob/main/images/escenario_GPR.png)
 
 <div align="justify">
 The default spatial discretization in this simulator is 0.01 meters for the "x" and "y" coordinates. The positions of the antennas, cylindrical objects, and the height of the subsurface are specified in terms of points. These points are calculated as follows: if the transmission antenna is to be positioned at 0.10 meters on the "x" axis and 0.5 meters on the "y" axis, this corresponds to 10 points and 50 points, respectively. This is obtained by dividing 0.10 by 0.01, resulting in 10, and 0.5 by 0.01, resulting in 50.
@@ -46,8 +46,8 @@ pip install em_simulation
 For instance, the following code can be executed in Google Colab. Simply copy and paste it into a new Colab notebook.
 ```bash
 
-import create_gpr_image as create_gpr
-import visualization as vis
+from em_simulation.create_gpr_image import run_image
+from em_simulation.visualization import graph_ez
 
 #--------------------------------------------------------------------------------
 # 1) definition of parameters for the simulation
@@ -84,10 +84,10 @@ characteristics_cylinder= { 'x_position': 50,
 
 #--------------------------------------------------------------------------------
 # 2) Perform simulation:
-ez = create_gpr.run_image(dicc_model,dicc_simulation,characteristics_subsurface,characteristics_cylinder )
+ez = run_image(dicc_model,dicc_simulation,characteristics_subsurface,characteristics_cylinder )
 #--------------------------------------------------------------------------------
 # 3) show result:
-vis.graph_ez(ez) 
+graph_ez(electric_field_Z)
 
 ```
 ## Create the environment
