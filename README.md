@@ -7,7 +7,7 @@
 
 
 <p align="center">
-    <img src="https://github.com/aplatag/project_em_simulation_2D/blob/main/images/escenario_GPR.png" alt="GPR-scenario" width="500">
+    <img src="https://raw.githubusercontent.com/aplatag/project_em_simulation_2D/main/images/escenario_GPR.png" alt="GPR-scenario" width="500" >
 </p>
 
 
