@@ -18,9 +18,9 @@ import time
 import numpy as np
 
 #classes
-from propagator_2D import Propagator2D
-from object_creation import ObjectCreation
-from user_messages import UserMessages
+from .propagator_2D import Propagator2D
+from .object_creation import ObjectCreation
+from .user_messages import UserMessages
 
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 

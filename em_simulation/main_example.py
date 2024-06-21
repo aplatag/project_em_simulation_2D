@@ -4,8 +4,8 @@ the entire code of the electromagnetic propagator is executed
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-import create_gpr_image as create_gpr
-import visualization as vis
+from . import create_gpr_image as create_gpr
+from . import visualization as vis
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 

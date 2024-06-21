@@ -6,13 +6,13 @@ module contains two functions:
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 import numpy as np
 
-from user_messages import UserMessages
+from .user_messages import UserMessages
 
 
 #modules:
-from global_constants import RED, RESET
-from global_constants import EPSZ, DT,DDX,SPEED_C
-from waveform import Waveform
+from .global_constants import RED, RESET
+from .global_constants import EPSZ, DT,DDX,SPEED_C
+from .waveform import Waveform
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 

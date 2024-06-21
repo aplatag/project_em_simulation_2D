@@ -8,8 +8,8 @@ import numpy as np
 from math import  sqrt
 
 #modules:
-from global_constants import RED, RESET
-from global_constants import EPSZ, DT
+from .global_constants import RED, RESET
+from .global_constants import EPSZ, DT
 
 
 
