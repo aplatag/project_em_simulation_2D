@@ -2,8 +2,10 @@
 <div align="justify">
 2D Electromagnetic Simulator for GPR Scenarios. This simulator allows for varying the relative permittivity and conductivity of the subsurface. Additionally, cylindrical objects can be added, defined by a coordinate (x, y) indicating the center of the cylinder, as well as their relative permittivity and conductivity. The simulation requires defining the location of the transmission and reception antennas, as well as the frequency of the Ricker pulse. Below is an example image showing all the parameters necessary to configure the GPR scenario.
 </div>
+<div style="text-align:center;">
+    <img src="https://github.com/aplatag/project_em_simulation_2D/blob/main/images/escenario_GPR.png" alt="GPR scenario" style="width: 50%; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+</div>
 
-![GPR scenario](https://github.com/aplatag/project_em_simulation_2D/blob/main/images/escenario_GPR.png)
 
 <div align="justify">
 The default spatial discretization in this simulator is 0.01 meters for the "x" and "y" coordinates. The positions of the antennas, cylindrical objects, and the height of the subsurface are specified in terms of points. These points are calculated as follows: if the transmission antenna is to be positioned at 0.10 meters on the "x" axis and 0.5 meters on the "y" axis, this corresponds to 10 points and 50 points, respectively. This is obtained by dividing 0.10 by 0.01, resulting in 10, and 0.5 by 0.01, resulting in 50.
